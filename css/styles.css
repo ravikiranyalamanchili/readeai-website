@@ -51,6 +51,11 @@ a{color:var(--accent-600);text-decoration:none}
 .nav__links{display:flex;gap:20px;align-items:center}
 .nav__link{color:#D6DCF2}
 .nav__link:hover{color:var(--primary-600)}
+/* Brand/logo */
+.nav__brand{display:flex;align-items:center;gap:12px}
+.nav__logo{height:40px;width:auto}
+@media(max-width:991px){.nav__logo{height:36px}}
+@media(max-width:767px){.nav__logo{height:28px}}
 
 .hero{background:
  radial-gradient(60% 60% at 20% 20%, rgba(0,180,216,.18), transparent 60%),
