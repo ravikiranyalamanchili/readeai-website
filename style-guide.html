@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>READE.AI — Style Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <div class="section">
+    <div class="container">
+      <h1 class="h1">Style Guide</h1>
+
+      <h2 class="h2">Colors</h2>
+      <div class="grid-4" style="margin-bottom:32px">
+        <div class="card"><div style="height:60px;border-radius:12px;background:var(--primary-600)"></div><p class="small">Primary 600</p></div>
+        <div class="card"><div style="height:60px;border-radius:12px;background:var(--accent-600)"></div><p class="small">Accent 600</p></div>
+        <div class="card"><div style="height:60px;border-radius:12px;background:var(--signal-600)"></div><p class="small">Signal 600</p></div>
+        <div class="card"><div style="height:60px;border-radius:12px;background:#101322"></div><p class="small">Surface Dark</p></div>
+      </div>
+
+      <h2 class="h2">Typography</h2>
+      <p class="h1">Display / H1</p>
+      <p class="h2">Section / H2</p>
+      <p class="h3">Card / H3</p>
+      <p class="text-m">Body / text-m — Inter 18/28. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p class="text-s">Small / text-s — Inter 16/26. Lorem ipsum dolor sit amet.</p>
+
+      <h2 class="h2">Buttons</h2>
+      <div class="btn-row" style="margin-bottom:24px">
+        <a class="btn btn--primary" href="#">Primary</a>
+        <a class="btn btn--secondary" href="#">Secondary</a>
+        <a class="btn btn--ghost" href="#">Ghost</a>
+      </div>
+
+      <h2 class="h2">Cards</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3 class="h3">Card Title</h3>
+          <p class="text-s">Body text inside a card with hover lift.</p>
+        </div>
+        <div class="card">
+          <h3 class="h3">Card Title</h3>
+          <p class="text-s">Use this component for features or products.</p>
+        </div>
+        <div class="card">
+          <h3 class="h3">Card Title</h3>
+          <p class="text-s">Consistent spacing and radius.</p>
+        </div>
+      </div>
+
+      <h2 class="h2" style="margin-top:32px">Form</h2>
+      <form class="form" onsubmit="event.preventDefault()">
+        <div class="form-row"><label>Name</label><input class="input" placeholder="Jane Doe"></div>
+        <div class="form-row"><label>Work Email</label><input class="input" placeholder="jane@hospital.org" type="email"></div>
+        <div class="form-row"><label>Organization</label><input class="input" placeholder="City General Hospital"></div>
+        <div class="form-row"><label>Role</label><input class="input" placeholder="Stroke Program Director"></div>
+        <div class="form-row" style="grid-column:1/-1"><label>Message</label><textarea class="input" placeholder="Hello!"></textarea></div>
+        <div class="form-actions"><button class="btn btn--primary" type="submit">Submit</button></div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
